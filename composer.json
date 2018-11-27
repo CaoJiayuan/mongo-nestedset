@@ -1,0 +1,22 @@
+{
+    "name": "nerio/mongo-nestedset",
+    "description": "Mongo nested set, based on kalnoy/nestedset",
+    "type": "library",
+    "require": {
+        "kalnoy/nestedset": "^4.3",
+        "jenssegers/mongodb": "^3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cjy",
+            "email": "cjy632258@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nerio\\MongoNestedset\\": "src/"
+        }
+    }
+}
