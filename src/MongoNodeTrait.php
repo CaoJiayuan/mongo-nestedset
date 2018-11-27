@@ -3,7 +3,7 @@
 namespace Nerio\MongoNestedset;
 
 use Kalnoy\Nestedset\NodeTrait;
-use Nerio\MongoNestedset\Builder\QueryBuilder as QueryBuilder;
+use Nerio\MongoNestedset\Builder\QueryBuilder;
 
 trait MongoNodeTrait
 {
